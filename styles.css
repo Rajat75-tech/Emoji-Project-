@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffdfbb/*rgb(109, 183, 244);  */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    gap: 20px;
+    padding: 10px;
+
+}
+.btns{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+ .smal-btns{
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    margin: 5px;
+    border-radius: 10px;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smal-btns:hover {
+    transform: scale(1.2);
+}
+
+/* Shrink to 0.5x size on click */
+.smal-btns:active {
+    transform: scale(0.5);
+}
+
+.emoji-heading{
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    padding: 0 4rem;
+    font-family: f;
+    box-shadow: inset 0 0px 10px rgba(18, 18, 18, 0.5);
+                      
+    border-radius: 20%;
+}
+.input-search-btn {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 50%;
+    
+    
+}
+.input-search-btn input{
+    padding: 10px 50px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    background-color: rgb(76, 186, 241);
+    
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 0px;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    width: 80px;
+    transition: all 0.2s ease
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:active{
+    transform: scale(0.9);
+}
+
+.btns{
+    color: rgb(8, 8, 8);
+    gap: 30px;
+}
+
+.emoji-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 40px;
+    width: 80%;
+    padding-top: 20px;
+    cursor: pointer;
+}
+p{
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7), 
+            0 0 20px rgba(255, 204, 0, 0.5);
+
+    transition: all 0.1s ease-in-out;
+    border-radius: 80%;
+    
+    
+}
+p:hover{
+    transform: scale(1.1);
+}
+p:active{
+    transform: scale(0.9);
+}
+
+hr {
+    border: 0;
+    height: 7px; /* Thickness of the line */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0.3));
+    box-shadow: 0 0 8px rgba(255, 255, 9, 0.979), 
+                0 0 15px rgba(96, 4, 4, 0.2), 
+                inset 0 0 5px rgba(161, 31, 31, 0.2);
+    backdrop-filter: blur(200px);
+    border-radius: 20px;
+    margin: 20px 0; /* Adds spacing above and below the hr */
+  }
+  
